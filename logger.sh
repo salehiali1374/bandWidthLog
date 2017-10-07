@@ -64,9 +64,10 @@ saveData(){
 			fi	
 		fi
 		((k++))
-		k=$((k%17))
+		k=$((k%21))
 		
 	done
+#	echo -e "k is $k"
 }
 #count=0
 flag=0
