@@ -1,6 +1,6 @@
 # BandwidthLog
 
-A bash script to show bandwidth usage of users
+A bash script to show and log bandwidth usage of users
 
 Requirement
 ---
