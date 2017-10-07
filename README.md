@@ -20,11 +20,11 @@ $ chmod +x logger.sh
 $ chmod +x bandWidthInfo.sh
 ```
 
-You can run logger.sh in system startup or use nohup!!    
-After running logger.sh if you want to check gathering data you have to use bandWidthLog.sh    
+You can run logger.sh in system startup or use nohup!! make sure to run it with sudo command.    
+After running logger.sh if you want to check gathering data you have to use bandWidthInfo.sh    
 For more information about how to usr bandWidthInfo.sh try this command:   
 
-`$ ./bandWidthLog.sh -h`
+`$ ./bandWidthInfo.sh -h`
 
 
 
