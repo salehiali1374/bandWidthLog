@@ -1,30 +1,44 @@
-# bandWidthLog
+# BandwidthLog
 
-A bash script that saves bandWidth usage for users
+A bash script to show bandwidth usage of users
 
-#requirement
+Requirement
+---
+In order to run this package you need to install `iptables` first:
 
-you have to install iptables first. to do that:
+```
+$ sudo apt update
+$ sudo apt install iptables
+```
 
-`$ sudo apt update`
+Installation
+---
+```
+$ git clone https://github.com/salehiali1374/bandWidthLog.git
+$ cd bandWidthLog
+$ chmod +x logger.sh
+$ chmod +x bandWidthInfo.sh
+```
 
-`$ sudo apt install iptables`
-
-#Installation
-
-`$ git clone https://github.com/salehiali1374/bandWidthLog.git`
-
-`$ cd bandWidthLog`
-
-`$ chmod +x logger.sh`
-
-`$ chmod +x bandWidthInfo.sh`
-
-
-you can run logger.sh in system startup or using nohup!!
-
-after running logger.sh if you want to check gathering data you have to use bandWidthLog.sh
-
-for more information about how to usr bandWidthInfo.sh try this command:
+You can run logger.sh in system startup or use nohup!!    
+After running logger.sh if you want to check gathering data you have to use bandWidthLog.sh    
+For more information about how to usr bandWidthInfo.sh try this command:   
 
 `$ ./bandWidthLog.sh -h`
+
+
+
+**Are you a developer?**
+
+1. Fork it!
+2. Create your feature branch: `git checkout -b my-new-feature`
+3. Commit your changes: `git commit -am 'Add some feature'`
+4. Push to the branch: `git push origin my-new-feature`
+5. Submit a pull request
+
+## License
+
+GNU General Public License v3
+
+
+
