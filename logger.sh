@@ -1,4 +1,21 @@
 #!/bin/bash
+# Author	: Ali Salehi
+# github	: https://github.com/salehiali1374/bandWidthLog
+# Email		: salehiali1374@gmail.com
+#
+# requirement	:  iptables
+# chmod +x logger.sh
+# sudo ./logger.sh
+#
+# This program is free software; you can redistribute it and/or modify
+# it under the terms of the GNU General Public License as published by
+# the Free Software Foundation; either version 2 of the License, or
+# (at your option) any later version.
+#
+# This program is distributed in the hope that it will be useful,
+# but WITHOUT ANY WARRANTY; without even the implied warranty of
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+# GNU General Public License for more details.
 clear
 IFS='|'
 trap Finish EXIT

@@ -1,4 +1,11 @@
 #!/bin/bash
+# Author	: Ali Salehi
+# github	: https://github.com/salehiali1374/bandWidthLog
+# Email		: salehiali1374@gmail.com
+#
+
+clear
+
 clear
 
 while getopts "hu:a" options; do
